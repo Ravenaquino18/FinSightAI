@@ -1,0 +1,14 @@
+# shadcn instructions
+
+Use the latest version of Shadcn to install new components, like this command to add a button component:
+
+```bash
+pnpm dlx shadcn@latest add button
+```
+
+# post-write instructions
+
+Always do linting and formatting after writing. if violations are found, fix them before doing anything else.
+```bash
+pnpm lint
+```

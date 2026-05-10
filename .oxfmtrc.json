@@ -1,0 +1,16 @@
+{
+  "arrowParens": "always",
+  "importOrder": {
+    "groups": [
+      "builtin",
+      "external",
+      "internal",
+      "parent",
+      "sibling",
+      "index",
+      "type"
+    ],
+    "newlinesBetweenGroups": "always",
+    "sortCaseInsensitive": true
+  }
+}
