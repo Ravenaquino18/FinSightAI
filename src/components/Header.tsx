@@ -34,11 +34,11 @@ export default function Header() {
 
         <div className="order-3 flex w-full flex-wrap items-center gap-2 text-sm font-semibold sm:order-2 sm:w-auto sm:flex-nowrap">
           <Link
-            to="/"
+            to="/demo/finances"
             className="nav-link"
             activeProps={{ className: 'nav-link is-active' }}
           >
-            Home
+            Dashboard
           </Link>
           <Link
             to="/about"
@@ -47,13 +47,7 @@ export default function Header() {
           >
             About
           </Link>
-          <Link
-            to="/demo/finances"
-            className="nav-link"
-            activeProps={{ className: 'nav-link is-active' }}
-          >
-            Dashboard
-          </Link>
+          
         </div>
 
         <div className="ml-auto flex items-center gap-2">
