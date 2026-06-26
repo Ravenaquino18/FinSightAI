@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "@faker-js/faker": "^10.3.0",
+    "@google/genai": "^2.10.0",
     "@google/generative-ai": "^0.24.1",
     "@t3-oss/env-core": "^0.13.10",
     "@tailwindcss/vite": "^4.1.18",
